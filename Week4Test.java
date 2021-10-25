@@ -5,11 +5,7 @@ import org.junit.Test;
 
 public class Week4Test {
    
-    @Test
-    public void testMax2Int2(){
-        int max = Week4.max2Int(1000,9999);
-        Assert.assertEquals(9999,max);
-    }
+    
     @Test
     public void testMax2Int3(){
         int max = Week4.max2Int(-1000,-9999);
