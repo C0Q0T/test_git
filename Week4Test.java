@@ -4,11 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class Week4Test {
-    @Test
-    public void testMax2Int1(){
-        int max = Week4.max2Int(5,4);
-        Assert.assertEquals(5,max);
-    }
+   
     @Test
     public void testMax2Int2(){
         int max = Week4.max2Int(1000,9999);
